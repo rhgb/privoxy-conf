@@ -69,6 +69,9 @@ myfilters   = +filter{html-annoyances} +filter{js-annoyances} +filter{all-popups
 allow-ads   = -block -filter{banners-by-size} -filter{banners-by-link}
 {+forward-override{forward-socks5 127.0.0.1:8998 .} \
 }
+.wikia.com
+.wikia.nocookie.net
+.akamaihd.net
 setup.office.com
 .deviantart.com
 .bloomberg.com

@@ -633,23 +633,6 @@ standard.Advanced
 /.*\.og[gv]$
 
 #############################################################################
-# Generic block patterns by host:
-#############################################################################
-{+block{Host matches generic block pattern.}}
-ad*.
-.*ads.
-.ad.?.
-.ad.[a-ik-z][a-oq-z].
-.ad.jp.*.
-.ad.???*.
-# Blocked URL = http://alternativos.iw-advertising.com/
-.*advert*.
-count*.
-*counter.
-# Blocked URL = http://metrics.performancing.com/
-metrics.
-
-#############################################################################
 # Generic unblockers by host:
 #############################################################################
 {-block}
@@ -683,9 +666,6 @@ adele*.
 # Generic block patterns by path:
 #############################################################################
 {+block{Path matches generic block pattern.}}
-# Blocked URL = http://www.example.org/adimage
-# Blocked URL = http://www.example.org/adspace
-/(.*/)?ad(\?|/|s|v|_?(image|se?rv|box)|cycle|rotate|mentor|click|f[ra]m|script|stream|fetch|log|space)
 /phpads(new)?/
 /(.*/)?(publicite|werbung|rekla(me|am)|annonse|maino(kset|nta|s)?/)
 /.*(count|track|compteur|(?<!relo)adframe|adse?rve?|banner)(er|run)?(\?|\.(pl|cgi|exe|dll|asp|php|cpt))
